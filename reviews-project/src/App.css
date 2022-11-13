@@ -1,0 +1,88 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background: aliceblue;
+  gap: 3rem;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-transform: capitalize;
+}
+.underline {
+  width: 6rem;
+  height: 0.2rem;
+  background: rgb(230, 17, 17);
+  margin-top: -1rem;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  max-width: 600px;
+  height: auto;
+  background: #fff;
+  padding: 2rem 3rem;
+  text-align: center;
+}
+.image-container img {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  box-shadow: 10px 10px 5px 0px rgba(230, 17, 17, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(230, 17, 17, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(230, 17, 17, 0.75);
+}
+.quote-icon {
+  position: absolute;
+  background: rgb(230, 17, 17);
+  color: #fff;
+  border-radius: 50%;
+  padding: 0.2rem;
+  font-size: 0.8rem;
+  margin-left: -6.5rem;
+}
+.author {
+  position: relative;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+  margin-top: 2rem;
+}
+.job {
+  color: rgb(230, 17, 17);
+  text-transform: uppercase;
+}
+.prev-btn {
+  outline: none;
+  background: transparent;
+  border: none;
+  color: rgb(230, 17, 17);
+  cursor: pointer;
+}
+.next-btn {
+  outline: none;
+  background: transparent;
+  border: none;
+  color: rgb(230, 17, 17);
+  cursor: pointer;
+}
+.random-btn {
+  outline: none;
+  background: transparent;
+  border: none;
+  background: rgba(230, 17, 17, 0.75);
+  color: #fff;
+  cursor: pointer;
+  text-transform: capitalize;
+  margin-top: 1.2rem;
+}
